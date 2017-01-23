@@ -22,7 +22,7 @@ Resarchers inspect the "uncrawlable" list to confirm that seeders' assessments w
 ### 3. [Harvesting](harvesting-toolkit)
 Harvesters take the "uncrawlable" data and try to figure out how to capture it. This is a complex task which can require substantial technical expertise, and which requires different techniques for different tasks. Harvesters should see the included [Harvesting Toolkit](./harvesting-toolkit) for more details and tools. **Group Leaders should familiarize themselves with this process before the start of the event.**
 
-### 4. Checking (checking.md)
+### 4. [Checking](checking.md)
 Checkers inspect a harvested dataset and make sure that it is complete. The main question the checkers need to answer is "will the bag make sense to a scientist"?
 
 ### 5. [Bagging](bagging.md)
