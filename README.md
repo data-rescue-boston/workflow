@@ -22,14 +22,17 @@ Resarchers inspect the "uncrawlable" list to confirm that seeders' assessments w
 ### 3. [Harvesting](harvesting-toolkit)
 Harvesters take the "uncrawlable" data and try to figure out how to capture it. This is a complex task which can require substantial technical expertise, and which requires different techniques for different tasks. Harvesters should see the included [Harvesting Toolkit](./harvesting-toolkit) for more details and tools. **Group Leaders should familiarize themselves with this process before the start of the event.**
 
-### 4. [Bagging](bagging.md)
+### 4. Checking (checking.md)
+Checkers inspect a harvested dataset and make sure that it is complete. The main question the checkers need to answer is "will the bag make sense to a scientist"?
+
+### 5. [Bagging](bagging.md)
 - do quality assurance on the work of the harvesters to make sure that a second pair of eyes has passed over each dataset
 - ensure that everything a researcher would need to understand the data is present
 - package the data into a bagit file, which includes basic technical metadata
 
-### 5. [Uploading](uploaders.md)
+### 6. [Uploading](uploaders.md)
 - take finished bag-it file and upload to S3 instance
 
-### 6. [Metadata](metadata.md)
+### 7. [Metadata](metadata.md)
 - creates a CKan record for this S3 resource
 - links bag, makes public
